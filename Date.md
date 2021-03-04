@@ -1,11 +1,11 @@
-# Count of day in year
+# Count of days in the year
 
 ```swift
 let range = Calendar.current.range(of: .day, in: .year, for: Date()) // 1..<366
 range?.count // 365
 ```
 
-# Count of week in year
+# Count of weeks in the year
 
 ```swift
 let range = Calendar.current.range(of: .weekOfYear, in: .year, for: Date()) // 1..<54
