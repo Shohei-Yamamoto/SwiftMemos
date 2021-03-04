@@ -12,6 +12,12 @@ let range = Calendar.current.range(of: .weekOfYear, in: .year, for: Date()) // 1
 range?.count // 53
 ```
 
+# weekDaySymbols
+```swift
+var calendar = Calendar.current
+calendar.locale = Locale(identifier:  Locale.preferredLanguages.first!)
+calendar.shortWeekdaySymbols // Sun, Mon, ...
+```
 
 # Previous Sunday
 
@@ -22,3 +28,10 @@ DateComponents(calendar: Calendar.current, year: components.year, weekday: 1, we
 
 > in the Gregorian calendar, n is 7 and Sunday is represented by 1.
 [weekday | Apple Developer Documentation](https://developer.apple.com/documentation/foundation/nsdatecomponents/1410442-weekday)
+
+# Locale
+
+## get PreferedLocale
+```swift
+Locale(identifier:  Locale.preferredLanguages.first!)
+```
