@@ -30,3 +30,5 @@ Could not find module 'RealmSwift' for target 'arm64-apple-ios-simulator'; found
 1. move to directory and `pod deintegrate`
 2. remove unneccesary files such as `.xcworkspace`, `Podfile`
 3. Add package with swift package manager.
+
+[CocoaPodsからSwift Package Managerへ移行するには | 株式会社ブリッツゲート](https://blitzgate.co.jp/blog/2234/)
