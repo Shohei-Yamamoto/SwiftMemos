@@ -3,7 +3,7 @@
 I couldn't execute `pod install`
 
 How to solve the problem.
-1. rosettaでterminalを起動(FinderでTerminalの情報を見る > Rosettaで起動)
+1. open terminal on rosetta(Finder: Terminal Info > Rosetta)
 2. `sudo gem install ffi`
 3. `pod install`
 
