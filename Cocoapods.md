@@ -1,8 +1,8 @@
 
-# m1 macでcocoapods
-pod installできなかった。
+# m1 mac cocoapods
+I couldn't execute `pod install`
 
-解決方法は
+How to solve the problem.
 1. rosettaでterminalを起動(FinderでTerminalの情報を見る > Rosettaで起動)
 2. `sudo gem install ffi`
 3. `pod install`
