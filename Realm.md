@@ -6,3 +6,4 @@
 
 * Realm works with Live Objects.
 * Store-pattern is useful when you use realm with SwiftUI.
+* [iOSアプリにおけるFluxの難しさと開発を加速させる"store-pattern" | Eureka Engineering](https://medium.com/eureka-engineering/flux-store-pattern-verge-2020-76781fa429aa)
